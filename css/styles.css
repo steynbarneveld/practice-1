@@ -1,0 +1,56 @@
+.redbg {
+  background-color: red;
+  width: 1000px;
+  height: 400px;
+}
+
+.bluebg {
+  background-color: blue;
+  width: 700px;
+  height: 300px;
+}
+
+.greenbg {
+  background-color: green;
+  width: 1000px;
+  height: 400px;
+}
+
+.yellowbg {
+  background-color: yellow;
+  width: 300px;
+  height: 300px;
+}
+
+.purplebg {
+  background-color: purple;
+  width: 1000px;
+  height: 400px;
+}
+
+.blackbg {
+  background-color: black;
+  width: 1100px;
+  height: 1300px;
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.flexrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+div {
+  width: 250px;
+  height: 250px;
+  background-color: white;
+}
