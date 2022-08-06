@@ -1,62 +1,76 @@
-.redbg {
-  background-color: red;
-  width: 1000px;
-  height: 400px;
-}
-
-.bluebg {
-  background-color: blue;
-  width: 700px;
-  height: 300px;
-}
-
-.greenbg {
-  background-color: green;
-  width: 1000px;
-  height: 400px;
-}
-
-.yellowbg {
-  background-color: yellow;
-  width: 300px;
-  height: 300px;
-}
-
-.purplebg {
-  background-color: purple;
-  width: 1000px;
-  height: 400px;
-}
-
-.blackbg {
-  background-color: black;
-  width: 1100px;
-  height: 1300px;
-  margin: auto;
-}
-
-.flex {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-.flexrow {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-div {
-  width: 250px;
-  height: 250px;
-  background-color: white;
-}
-
 body {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  background-image: url(../img/pepernoten.png);
+  background-repeat: no-repeat;
+  font-family: "Quicksand", sans-serif;
+}
+
+body {
+  background-color: #202020;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+table {
+  margin-left: auto;
+  margin-right: 30px;
+  margin-top: 30px;
+  float: right;
+  table-layout: fixed;
+  text-align: center;
+  color: #d7d7d7;
+  width: 300px;
+  padding: 15px;
+}
+
+h1 {
+  color: white;
+}
+
+h2 {
+  color: white;
+}
+
+p {
+  color: #d7d7d7;
+}
+
+a,
+a:visited,
+a:active {
+  color: #7fb3d5;
+  text-decoration: none;
+  line-height: 25px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h3 {
+  color: #dfdfdf;
+}
+
+#menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  background-color: #292929;
+}
+
+.darktheme {
+  background-color: #202020;
+  margin-left: 200px;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 100px;
+}
+
+.info {
+  float: right;
 }
